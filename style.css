@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url("fonts/odstemplik/odstemplik.otf") format("opentype"),url("fonts/odstemplik/odstemplikBold.otf") format("opentype")
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:10000;
+}
+.top-img{
+    background-image: url("imgs/img01.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    height:500px;
+}
+
+.top-text{
+    text-align: center;
+    padding: 250px 0;
+}
+
+
+.top-text h1{
+    font-size: 100px;
+    font-family: "myfont";
+}
+
+
+nav h3{
+    font-family: "myfont";
+}
+
+nav .fas, .far{
+    color:#888;
+}
+
+.night-sky{
+    background-image: url("imgs/fix-bg.jpg");
+    color: white;
+    padding: 200px 0;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.night-sky h2{
+    font-family: "myfont";
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.night-sky p{
+    color: white;
+}
+
+
+
+.activity-list{
+    background-color:#faebd7;
+    padding: 50px;
+}
+
+.activity-list h2{
+    text-align: center;
+    font-family: "myfont";
+    font-size: 45px;
+}
+.activity-img{
+    width: 100%;
+}
+.activity-discription{
+    padding: 30px;
+}
+
+.fee-list{
+    background-color:#faebd7;
+    padding: 20px;
+    text-align: center;
+}
+
+.fee-list h5{
+    text-align: center;
+    font-family: "myfont";
+    
+}
+.fee-img{
+    width: 100%;
+    padding:15px;
+}
+.fee-discription{
+    padding: 30px;
+}
+
+.pre-list{
+   background-color:#faebd7;
+    text-align: center;
+}
+.pre-list h2{
+    text-align: center;
+}
+
+.pre-img{
+    width: 100%;
+    
+}
+
+.info{
+    border: solid 2px white;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.icon{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #333;
+    padding: 30px;
+}
+
+footer p{
+    text-align: right;
+}
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: #aaa;
+    font-size: 15px;
+}
+
+footer ul li a:hover{
+    color: ;
+    text-decoration: none;
+}
+

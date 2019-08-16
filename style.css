@@ -16,7 +16,7 @@ header{
     z-index:10000;
 }
 .top-img{
-    background-image: url("imgs/img01.jpg");
+    background-image: url("img01.jpg");
     background-size: 100%;
     background-attachment: fixed;
     height:500px;
@@ -43,7 +43,7 @@ nav .fas, .far{
 }
 
 .night-sky{
-    background-image: url("imgs/fix-bg.jpg");
+    background-image: url("fix-bg.jpg");
     color: white;
     padding: 200px 0;
     background-size: cover;
